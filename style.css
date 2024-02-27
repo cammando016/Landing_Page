@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header, .title {
+    background-color:#1f2937;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+
+.header {
+    flex: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    margin-left: auto;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 0px;
+    margin-left: 15px;
+    flex: 1;
+}
+
+.title {
+    display: flex;
+}
+
+.title_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: auto;
+    min-width: 50%;
+}
+
+.title_content button {
+    width: fit-content;
+    max-height: 10%;
+    flex: auto;
+}
+
+.title_image img{
+    flex: auto;
+    padding: 30px 0px 30px 30px;
+    max-width: 100%;
+    height: auto;
+}
+
+.main_heading{
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+}
+
+.main_content {
+    display: flex;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.image img{
+    flex:auto;
+    max-width: 80%;
+    height:auto;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.image .text{
+    flex:auto;
+    height:100px;
+    justify-content: center;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    color:#1f2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 20px;
+}
+
+.join{
+    display: flex;
+    background-color: #3882f6;
+    max-width: 60%;
+    margin: 50px 20%;
+    border-radius: 10px; 
+}
+
+.join_text {
+    display: flex;
+    flex:auto;
+    max-width: 75%;
+    flex-direction: column;
+    padding-left: 10%;
+    color: white;
+}
+
+#one {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#two {
+    font: 14px;
+    font-style: italic;
+}
+
+.join_button {
+    flex:auto;
+    max-width: 25%;
+    align-self: center;
+}
+
+.footer{
+    background-color: #1f2937;
+    color:white;
+    padding: 10px;
+    text-align: center;
+}
